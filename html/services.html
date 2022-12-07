@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/movil.css">
+    <link rel="stylesheet" href="../css/slidefotos.css">
+    <script src='https://kit.fontawesome.com/2ee0245f3d.js'crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="/wow.min.js">
+    <link rel="stylesheet" href="../fancybox/jquery.fancybox.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="contact_bar">
+        <div class="datosc">
+          <a href="">
+            <i class="fa-solid fa-phone"></i> Phone +012 345 6789</a>
+            <a href=""><i class="fa-solid fa-location-dot"></i>Cargo Hub, NY 10012, USA</a>
+            <a href="mailto:demo@example.com"><i class="fa-solid fa-envelope"></i> Mail@demo.com </a>
+        </div>
+          <div id="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+          </div>
+      </section>
+    <header>
+      <div class="cabezera">
+        <a href="index.html"><figure class="logo"><img src="../img/logo-light.png" alt=""> </figure></a>
+        <i class="fa-solid fa-bars" id="iconomenu"></i>
+      <nav id="menu">
+        <ul>
+          <li><a href='index.html'>HOME <i class="fa-solid fa-chevron-down"></i></a></li>
+          <li><a href='services.html'>SERVICES <i class="fa-solid fa-chevron-down"></i></a></li>
+          <li><a href='contact.html'>CONTACT <i class="fa-solid fa-chevron-down"></i></a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+
+    <script>
+      $(function () {
+        $("#slider4").responsiveSlides({
+          auto: false,
+          pager: false,
+          nav: true,
+          speed: 500,
+          namespace: "callbacks",
+          before: function () {
+            $('.events').append("<li>before event fired.</li>");
+          },
+          after: function () {
+            $('.events').append("<li>after event fired.</li>");
+          }
+        });
+      });
+    </script>
+  </head>
+  <a href="#" class="scroll-top" title="Ir arriba">
+    <i class="fa fa-angle-up"></i>
+  </a>
+  <body>
+    <section>
+      <div class="callbacks_container">
+        <ul class="rslides" id="slider4">
+          <li>
+            <img src="../img/slide1.jpg" alt="">
+            <div class="caption">
+              <br>
+              <h1 class="animate__animated animate__backInDown">WORLDWIDE <br> <br> LOGISTIC SERVICES</h1>
+              <br><br>
+              <h4 class="animate__animated animate__backInUp">Dedicated employees, working in 06 regional around the globe, deliver operational</h4>
+              <br><br>
+              <a href="services.html" class="btn_trans">About Us </a>
+              <a href="contact.html" class="btn_trans">Request Quote</a>
+            </div>
+          </li>
+          <li>
+            <img src="../img/slide2.jpg" alt="">
+            <div class="caption2">
+              <br>
+              <h1 class="animate__animated animate__backInDown">WORLDWIDE <br> <br> LOGISTIC SERVICES</h1>
+              <br><br>
+              <h4>Dedicated employees, working in 06 regional around the globe, deliver operational</h4>
+              <br><br>
+              <a href="" class="btn_trans">About Us </a>
+              <a href="" class="btn_trans">Request Quote</a>
+            </div>
+          </li>
+          <li>
+            <img src="../img/slide3.jpg" alt="">
+            <div class="caption">
+              <br>
+              <h1 class="animate__animated animate__backInDown">WORLDWIDE <br> <br> LOGISTIC SERVICES</h1>
+              <br><br>
+              <h4>Dedicated employees, working in 06 regional around the globe, deliver operational</h4>
+              <br><br>
+              <a href="services.html" class="btn_trans">About Us </a>
+              <a href="contact.html" class="btn_trans">Request Quote</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+  </section>
+
+  <section class="fondoazul">
+    <br><br>
+    <div class="services">
+      <h1>OUR SPECIAL <br><br><br> SERVICES</h1>
+      <div class="textoh4">
+      <h4>Our warehousing services are known nationwide to be one of the most reliable, safe and affordable, because we take pride in delivering the best of warehousing services, at the most reasonable prices.</h4>
+      </div>
+    </div>
+    <div class="cardpadre">
+      <div class="servicecard wow animate__animated animate__tada">
+        <div class="wow animate__animated animate__tada">
+          <i class="fa-solid fa-box-open"></i>
+        </div>
+        <div>
+          <h1>Packaging And Storage</h1>
+          <br>
+          <h4>Package and store your things effectively and securely to make sure them in storage.</h4>
+        </div>
+      </div>
+      <div class="servicecard wow animate__animated animate__tada">
+        <div class="wow animate__animated animate__tada">
+          <i class="fa-solid fa-box-open"></i>
+        </div>
+        <div>
+          <h1>Packaging And Storage</h1>
+          <br>
+          <h4>Package and store your things effectively and securely to make sure them in storage.</h4>
+        </div>
+      </div>
+      <div class="servicecard wow animate__animated animate__tada">
+        <div class="wow animate__animated animate__tada">
+          <i class="fa-solid fa-box-open"></i>
+        </div>
+        <div>
+          <h1>Packaging And Storage</h1>
+          <br>
+          <h4>Package and store your things effectively and securely to make sure them in storage.</h4>
+        </div>
+      </div>
+      <div class="servicecard wow animate__animated animate__tada">
+        <div class="wow animate__animated animate__tada">
+          <i class="fa-solid fa-box-open"></i>
+        </div>
+        <div>
+          <h1>Packaging And Storage</h1>
+          <br>
+          <h4>Package and store your things effectively and securely to make sure them in storage.</h4>
+        </div>
+      </div>
+      <div class="servicecard wow animate__animated animate__tada">
+        <div class="wow animate__animated animate__tada">
+          <i class="fa-solid fa-box-open"></i>
+        </div>
+        <div>
+          <h1>Packaging And Storage</h1>
+          <br>
+          <h4>Package and store your things effectively and securely to make sure them in storage.</h4>
+        </div>
+      </div>
+      <div class="servicecard wow animate__animated animate__tada">
+        <div class="wow animate__animated animate__tada">
+          <i class="fa-solid fa-box-open"></i>
+        </div>
+        <div>
+          <h1>Packaging And Storage</h1>
+          <br>
+          <h4>Package and store your things effectively and securely to make sure them in storage.</h4>
+        </div>
+      </div>
+    </div>
+  <br><br>
+  </section>
+  <br>
+  <div class="tituloservice">
+    <br>
+    <center><h1>Our Services</h1></center>
+  </div>
+  <br>
+  <article class="container-gallery conteiner">
+    <a href="../img/truck-and-bus.jpg" class="fancybox" rel="gallery1" >
+      <figure>
+        <img src="../img/truck-and-bus.jpg" alt="">
+     </figure>
+    </a>
+     <a href="../img/Avion.jpg" class="fancybox" rel="gallery1" >
+      <figure>
+        <img src="../img/Avion.jpg" alt="">
+     </figure>
+     </a>
+     <a href="../img/entrega.jpg" class="fancybox" rel="gallery1" >
+      <figure>
+        <img src="../img/entrega.jpg" alt="">
+     </figure>
+     </a>
+  </article>
+
+    <footer>
+      <br>
+      <figure>
+        <img src="../img/logo-light.png" alt="">
+      </figure>
+      <p>2017 All Rigths Reserved | Privacy Policy</p>
+      <div class="iconsfoot">
+        <i class="fa-brands fa-facebook-f icon_a"></i>
+        <i class="fa-brands fa-pinterest-p icon_a"></i>
+        <i class="fa-brands fa-instagram icon_a"></i>
+      </div>
+      <br>
+  </footer>
+</body>
+<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<script src="/responsiveslides.min.js"></script>
+<script>
+  $("#iconomenu").click(function(){
+    $("#menu").slideToggle();
+  });
+</script>
+<script src="../fancybox/jquery.fancybox.js"></script>
+  <!-- acordeon -->
+<script>
+  $(".titulo1").click(function(){
+    $(".contenido1").slideToggle();
+    $(".icono1").toggleClass("rotar");
+  });
+
+  $(".titulo2").click(function(){
+    $(".contenido2").slideToggle();
+    $(".icono2").toggleClass("rotar");
+  });
+
+  $(".titulo3").click(function(){
+    $(".contenido3").slideToggle();
+    $(".icono3").toggleClass("rotar");
+  });
+</script>
+<script>
+  $(window).scroll(function() {
+  if ($(this).scrollTop() > 300) {
+      $('a.scroll-top').fadeIn('slow');
+  } else {
+      $('a.scroll-top').fadeOut('slow');
+  }
+});
+$('a.scroll-top').click(function(event) {
+  event.preventDefault();
+  $('html, body').animate({scrollTop: 0}, 600);
+});
+</script>
+</html>

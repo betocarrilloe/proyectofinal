@@ -1,0 +1,102 @@
+@media screen and (max-width:480px){
+    #contact_bar{
+        display: none
+    }
+
+    .cabezera{
+        flex-wrap: wrap;
+    }
+
+    #iconomenu{
+        color:white;
+        font-size: 30px;
+        display: block;
+        margin-right: 20px;
+    }
+
+    .welcome h1{
+      font-size: 30px;
+  }
+
+  .paralax{
+    font-size: 20px;
+  }
+
+  .video{
+    width: 400px;
+    height: 300px;
+  }
+  .video iframe{
+    width: 100%;
+    height: 100%;
+  }
+
+    nav{
+        display: none;
+        width: 50%;
+        background-color: rgba(19, 19, 19, 0.397);
+        padding: 10px;
+        z-index: 9999;
+        top: 80px;
+        left: 250px;
+        position: absolute;
+    }
+
+    nav ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contpadre{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .services{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 300px;
+        color: white;
+    }
+
+    .textoh4{
+        width: 400px;
+        height: 150px;
+    }
+    
+    .caption {
+        width: 500px;
+        height: 300px;
+      }
+
+      .caption2 {
+        width: 200px;
+        height: 200px;
+      }
+
+      .caption h1{
+        margin-left: 20px;
+      }
+
+      .caption h4{
+        margin-left: 20px;
+      }
+
+      .caption2 h1{
+        margin-left: 20px;
+      }
+
+      .caption2 h4{
+        margin-left: 20px;
+      }
+
+      .tituloservice{
+        margin-left: 100px;
+      }
+
+      #contenedoryoutube{
+        width: 400px;
+        padding: 0;
+      }
+}

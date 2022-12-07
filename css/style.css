@@ -1,0 +1,364 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+
+body {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+.datosc{
+    width: 800px;
+}
+
+.datosc a{
+    padding-left: 50px;
+}
+
+#contact_bar {
+    display: flex;
+    width: 100%;
+    background:#0c1239;
+    padding:10px;
+    gap:15px;
+    justify-content:space-between;
+}
+
+#social-icons{
+    width: 300px;
+    text-align: center;
+}
+
+.datosc i{
+    color: red;
+}
+
+#social-icons a{
+    color:#DDE2FC;
+    margin-left: 40px;
+}
+
+#contact_bar p{
+    color:white;
+}
+
+#contact_bar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cabezera{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #0c1239;
+    justify-content: space-between;
+}
+
+#menu{
+    margin-right: 100px;
+}
+
+#iconomenu{
+    color:white;
+    display: none;
+}
+
+.logo{
+    margin-left: 50px;
+}
+nav ul{
+  display: flex;
+  gap: 20px;
+  width: auto;
+  align-items: center;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn_trans{
+    padding:15px;
+    color:white;
+    background: transparent;
+    border: 1px white solid;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin-left: 20px;
+}
+
+.btn_trans:hover{
+    background-color: red;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.welcome h1{
+    font-size: 40px;
+}
+
+.welcome h4{
+    font-family: Arial;
+}
+
+span{
+    color: red;
+}
+
+.linea{
+    margin: auto;
+    width: 100px;
+    border: 1px red solid;
+}
+
+.avion{
+    color: rgb(73, 73, 73);
+    font-size: 80px;
+}
+
+.barco{
+    color: rgb(73, 73, 73);
+    font-size: 80px;
+}
+
+.camion{
+    color: rgb(73, 73, 73);
+    font-size: 80px;
+}
+
+.cont{
+    width: 350px;
+}
+
+
+.cont h1{
+    font-size: 20px;
+}
+
+.contpadre{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fondoazul{
+    background-color: #0c1239;
+}
+
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    color: white;
+}
+
+.services h1{
+    font-size: 50px;
+}
+
+.textoh4{
+    border-left: 2px red solid;
+    padding: 20px;
+    width: 600px;
+    height: 100px;
+}
+
+.cardpadre{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.servicecard{
+    margin: 5px;
+    width: 350px;
+    border: 1px white solid;
+    color: white;
+    display: flex;
+    padding: 20px;
+}
+
+.servicecard i{
+    margin-top: 60px;
+    font-size: 45px;
+    padding-right: 20px;
+}
+
+.paralax{
+    background-image: url(../img/slide3.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+
+
+  form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #a5a5a5;
+    padding: 50px;
+    border-radius: 15px;
+    gap:15px;
+  }
+  form input{
+    width: 49%;
+    padding: 10px;
+  }
+  form textarea{
+    width: 100%;
+    padding: 10px;
+    resize: none;
+  }
+  form input[type="button"]{
+    width: 30%;
+    border: 0;
+    padding: 10px;
+  }
+
+  .btn_form{
+    background-color: #122181c7;
+    color: white;
+  }
+
+  .btn_form:hover{
+    background-color: red;
+  }
+
+  .acordeon{
+    width: 50%;
+    margin: auto;
+  }
+  .acordeon_titulo{
+    background-color: #0c1239;
+    color: white;
+    padding: 16px;
+    font-size:16px;
+    margin: 0;
+    cursor: pointer; 
+    display: flex;
+    justify-content: space-between;
+  }
+  .contenido_acordeon{
+    display: none;
+    margin: 0;
+    background-color:#0c1239;
+    padding: 1em 1em 1.5em;
+    width: 100%;
+    justify-content: center;
+    color: white;
+  }
+  .contenido_acordeon figure img {
+    width: 50%;
+    height: 100%;
+  }
+
+.tituloservice{
+    margin-left: 450px;
+    background-color: #122181c7;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.394);
+    height: 80px;
+    width: 300px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+  a.scroll-top {
+	color: #fff;
+	display: none;
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	z-index: 1000;
+	bottom: 70px;
+	right: 30px;
+	font-size: 20px;
+	background: #050505;
+	border-radius: 50% !important;
+	text-align: center;
+	border: 1px solid hsla(0, 0%, 78%, 0.3)
+}
+a.scroll-top i {
+	position: relative;
+	top: 2px;
+    color: red;
+}
+ /* gallery */
+.container-gallery{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+.container-gallery a {
+    text-decoration: none;
+}
+.container-gallery a figure{
+    width: 95%;
+    height: 300px;
+}
+.container-gallery a figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.textovideo{
+    font-size: 30px;
+}
+
+.video{
+    width: 750px;
+    height: 450px;
+}
+.video iframe{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: #0c1239;
+    text-align: center;
+}
+
+footer img{
+    max-width: 300px;
+}
+
+footer p{
+    color: white;
+}
+
+footer i{
+    color: white;
+}
